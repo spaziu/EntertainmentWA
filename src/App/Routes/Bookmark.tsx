@@ -1,14 +1,19 @@
-import { DataContext } from "../Contexts/MainContext";
+import { DataContext, DataContextType } from "../Contexts/MainContext";
 import { useContext } from "react";
-import GridRender from "../Components/GridRender";
+import SearchRender from "../Components/SearchRender";
+import MapCardXS from "../Components/MapCardXS";
 
 export default function Movies() {
-  const { moviesBookmarked, seriesBookmarked } = useContext(DataContext);
-
+  const { moviesBookmarked, seriesBookmarked } = useContext(
+    DataContext
+  ) as DataContextType;
+  const bookmarkSearch = moviesBookmarked.concat(seriesBookmarked);
   return (
     <>
-      <GridRender title="My Movies Bookmarked" array={moviesBookmarked} />
-      <GridRender title="My Series Bookmarked" array={seriesBookmarked} />
+      <SearchRender title="Bookmarks" data={bookmarkSearch}>
+        <MapCardXS title="Bookmarked Movies" data={moviesBookmarked} />
+        <MapCardXS title="Bookmarked TV Series" data={seriesBookmarked} />
+      </SearchRender>
     </>
   );
 }

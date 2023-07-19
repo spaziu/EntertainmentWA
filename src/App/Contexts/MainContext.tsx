@@ -15,7 +15,7 @@ export const DataContext = createContext({
   // },
 });
 
-interface Obj {
+export interface Obj {
   title: string;
   date: number;
   type: string;
@@ -25,40 +25,46 @@ interface Obj {
   id: string;
   bookmarked: boolean;
 }
+export interface DataContextType {
+  trends: Obj[];
+  forYou: Obj[];
+  data: Obj[];
+  movies: Obj[];
+  series: Obj[];
+  seriesBookmarked: Obj[];
+  moviesBookmarked: Obj[];
+  toggleBookmark: (id: string) => void;
+}
 
 export async function Loader() {
-  if (localStorage.getItem("db")) {
-    return JSON.parse(localStorage.getItem("db"));
+  const storedData = localStorage.getItem("db");
+  if (storedData) {
+    return JSON.parse(storedData);
   } else {
-    try {
-      const res = await fetch("http://localhost:3000/db");
-      const data = await res.json();
-      const bookmarked = await data.db.map((e: Obj[]) => {
-        return { ...e, bookmarked: false };
-      });
-      return bookmarked;
-    } catch (error) {
-      throw console.log(error);
-    }
+    const res = await fetch("http://localhost:3000/db");
+    const data = await res.json();
+    const bookmarked = await data.db.map((e: Obj[]) => {
+      return { ...e, bookmarked: false };
+    });
+    return bookmarked;
   }
 }
 
 export default function MainContext() {
-  const loaderData = useLoaderData();
-  const [data, setData] = useState<Obj[]>(loaderData);
+  const loaderData = useLoaderData() as Obj[];
+  const [data, setData] = useState(loaderData);
 
   useEffect(() => {
     localStorage.setItem("db", JSON.stringify(data));
   }, [data]);
 
   function toggleBookmark(id: string) {
-    setData((prev: Obj[]) => {
+    setData((prev) => {
       return prev.map((e) =>
         e.id === id ? { ...e, bookmarked: !e.bookmarked } : { ...e }
       );
     });
   }
-
   const trends = data.filter((e) => e.trending);
   const forYou = data.filter((e) => e.trending === false);
   const movies = data.filter((e) => e.type === "Movie");

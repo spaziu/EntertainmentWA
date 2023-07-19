@@ -1,14 +1,16 @@
 import { useContext } from "react";
-import { DataContext } from "../Contexts/MainContext";
-import GridRender from "../Components/GridRender";
-import TrendsRender from "../Components/TrendsRender";
+import { DataContext, DataContextType } from "../Contexts/MainContext";
+import MapTrends from "../Components/MapTrends";
+import MapCardXS from "../Components/MapCardXS";
+import SearchRender from "../Components/SearchRender";
 
 export default function Home() {
-  const { forYou } = useContext(DataContext);
+  const { forYou, data } = useContext(DataContext) as DataContextType;
+
   return (
-    <>
-      <TrendsRender />
-      <GridRender title="Recommended for you" array={forYou} />
-    </>
+    <SearchRender data={data} title="Movies & TV Series">
+      <MapTrends />
+      <MapCardXS title="Recommended for you" data={forYou} />
+    </SearchRender>
   );
 }

@@ -1,9 +1,14 @@
-import { DataContext } from "../Contexts/MainContext";
+import SearchBar from "../Components/SearchRender";
+import MapCardXS from "../Components/MapCardXS";
+import { DataContext, DataContextType } from "../Contexts/MainContext";
 import { useContext } from "react";
-import GridRender from "../Components/GridRender";
 
 export default function Movies() {
-  const { movies } = useContext(DataContext);
+  const { movies } = useContext(DataContext) as DataContextType;
 
-  return <GridRender title="Movies" array={movies} />;
+  return (
+    <SearchBar data={movies} title="Movies">
+      <MapCardXS data={movies} title="Movies" />;
+    </SearchBar>
+  );
 }

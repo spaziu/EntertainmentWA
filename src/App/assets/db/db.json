@@ -6,7 +6,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg",
       "id": "sR7wAP2e"
     },
     {
@@ -15,7 +15,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
       "id": "bE8gUH9k"
     },
     {
@@ -24,7 +24,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
       "id": "mT5fCN8j"
     },
     {
@@ -33,7 +33,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bMadFzhjy9T7R8J48QGq1ngWNAK.jpg",
       "id": "yN6hXW3v"
     },
     {
@@ -42,7 +42,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/85cWkCVftiVs0BVey6pxX8uNmLt.jpg",
       "id": "wV4uLQ1r"
     },
     {
@@ -50,8 +50,8 @@
       "date": 1994,
       "type": "Movie",
       "classification": "R",
-      "trending": false,
-      "cover": "",
+      "trending": true,
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
       "id": "zC3tSJ7f"
     },
     {
@@ -60,7 +60,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
       "id": "aP2eRD6v"
     },
     {
@@ -69,7 +69,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
       "id": "dF5gKJ9b"
     },
     {
@@ -78,7 +78,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
       "id": "hJ8kEM4s"
     },
     {
@@ -87,7 +87,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
       "id": "gM9nFZ3q"
     },
     {
@@ -96,7 +96,7 @@
       "type": "Movie",
       "classification": "G",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
       "id": "uB4cTY2m"
     },
     {
@@ -105,7 +105,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
       "id": "jD7eAH5c"
     },
     {
@@ -114,7 +114,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
       "id": "qE3gMU7b"
     },
     {
@@ -123,7 +123,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
       "id": "eW2fXC4d"
     },
     {
@@ -132,7 +132,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
       "id": "rQ7eNL5p"
     },
     {
@@ -141,7 +141,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
       "id": "tW4hKP8q"
     },
     {
@@ -150,7 +150,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
       "id": "yE9gRL3s"
     },
     {
@@ -159,7 +159,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
       "id": "uA8fHT6w"
     },
     {
@@ -168,7 +168,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
       "id": "iM7nFG2t"
     },
     {
@@ -177,7 +177,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg",
       "id": "oQ4eCV9z"
     },
     {
@@ -186,7 +186,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
       "id": "pW5dAB3x"
     },
     {
@@ -195,7 +195,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
       "id": "aZ2gKM6h"
     },
     {
@@ -204,7 +204,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg",
       "id": "bR3hSF5e"
     },
     {
@@ -213,7 +213,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": true,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
       "id": "cT4jIL9g"
     },
     {
@@ -222,7 +222,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
       "id": "xG4sTE9p"
     },
     {
@@ -231,7 +231,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
       "id": "sQ7eHJ4v"
     },
     {
@@ -240,7 +240,7 @@
       "type": "Movie",
       "classification": "PG",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
       "id": "bA9gTD1e"
     },
     {
@@ -249,7 +249,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
       "id": "bA5dUD9p"
     },
     {
@@ -258,7 +258,7 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
       "id": "jW8fRF3k"
     },
     {
@@ -267,7 +267,7 @@
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
       "id": "lHj9Fr6d"
     },
     {
@@ -276,7 +276,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
       "id": "rJh4Mq5n"
     },
     {
@@ -285,7 +285,7 @@
       "type": "TV Series",
       "classification": "TV-14",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
       "id": "eKl3Gw9a"
     },
     {
@@ -294,7 +294,7 @@
       "type": "Movie",
       "classification": "R",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
       "id": "gTk2Jr6s"
     },
     {
@@ -303,16 +303,16 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
       "id": "fHj7Gw3k"
     },
     {
-      "title": "La Casa de Papel",
-      "date": 2017,
+      "title": "The Blacklist",
+      "date": 2012,
       "type": "TV Series",
       "classification": "TV-MA",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7WCNaek6zGlhum99TA63QmVPhox.jpg",
       "id": "t3NbgLr5"
     },
     {
@@ -321,8 +321,9 @@
       "type": "Movie",
       "classification": "PG-13",
       "trending": false,
-      "cover": "",
+      "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
       "id": "k3ZslQv6"
     }
-  ]
+  ],
+  "user": []
 }
