@@ -23,12 +23,12 @@ npm run dev
 
 ## ToDo
 
-- implement search
+- ~~implement search~~
 
-- impelement personalised search within pages
+- ~~implement personalised search within pages~~
 
 - finish style
 
-- define every type
+- ~~define every type~~
 
 - implement other logic than localStorage
