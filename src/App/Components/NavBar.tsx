@@ -6,12 +6,7 @@ import {
   RiTvLine,
 } from "react-icons/ri";
 import { MdMovie } from "react-icons/md";
-import { useState } from "react";
 export default function NavBar() {
-  const [isOpen, setIsOpen] = useState(false);
-  function toggle() {
-    setIsOpen((prev) => !prev);
-  }
   return (
     <>
       <nav className="sticky top-0 z-10 flex h-12 items-center justify-center border-b-2 border-slate-800 bg-slate-800 text-blue-300/75 shadow-lg transition md:top-2 md:mx-4 md:rounded-xl xl:top-[1.5vh] xl:h-fit xl:min-h-[97vh] xl:flex-col xl:px-6 xl:py-4">
@@ -33,25 +28,10 @@ export default function NavBar() {
         <button
           type="button"
           className=" mr-6 h-8 w-8 overflow-hidden rounded-full border transition xl:mx-auto xl:h-10 xl:w-10"
-          onClick={toggle}
         >
           <img src="/djinn.jpg" alt="pp" />
         </button>
       </nav>
-      {/* Test - Work on Progress *
-      {isOpen && (
-        <nav className=" fixed right-1 top-[3.25rem] z-10 ml-auto rounded-lg bg-red-600 p-2 text-center text-white">
-          <div className="border-b"> User 1554</div>
-          <NavLink
-            to="profile"
-            className="cursor-pointer border-b"
-            onClick={toggle}
-          >
-            Your Profile
-          </NavLink>
-          <div className=" cursor-pointer">Log Out </div>
-        </nav>
-      )} */}
     </>
   );
 }

@@ -24,7 +24,7 @@ export default function SearchBar({ data, title, children }: Props) {
         <input
           type="text"
           className="w-5/6 bg-emerald-500/0 text-xl placeholder-blue-300/75 outline-0 transition focus:underline focus:underline-offset-4"
-          placeholder={"Search in " + title}
+          placeholder={"Search for " + title}
           onChange={searching}
         />
       </div>
