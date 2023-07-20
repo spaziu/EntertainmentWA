@@ -10,7 +10,7 @@ export default function Movies() {
   const bookmarkSearch = moviesBookmarked.concat(seriesBookmarked);
   return (
     <>
-      <SearchRender title="Bookmarks" data={bookmarkSearch}>
+      <SearchRender title="Bookmarked Shows" data={bookmarkSearch}>
         <MapCardXS title="Bookmarked Movies" data={moviesBookmarked} />
         <MapCardXS title="Bookmarked TV Series" data={seriesBookmarked} />
       </SearchRender>
