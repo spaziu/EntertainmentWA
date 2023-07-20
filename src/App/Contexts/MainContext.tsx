@@ -2,18 +2,7 @@ import { createContext, useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout";
 
-export const DataContext = createContext({
-  // trends: [{}],
-  // forYou: [{}],
-  // data: [{}],
-  // movies: [{}],
-  // series: [{}],
-  // seriesBookmarked: [{}],
-  // moviesBookmarked: [{}],
-  // toggleBookmark: () => {
-  //   return [{}];
-  // },
-});
+export const DataContext = createContext({});
 
 export interface Obj {
   title: string;
